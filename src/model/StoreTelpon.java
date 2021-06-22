@@ -52,4 +52,22 @@ public class StoreTelpon {
         System.out.println(insertCreate);
         return false;
     }
+
+        //construktor
+    public StoreTelpon(){
+        System.out.println("===================");
+        namatelpon = "please isi Nama Telpon";
+        typetelpon = "please isi Type Telpon";
+        namatelpon = "please isi nama telpon";
+        warnatelpon= "please isi warna telpon";
+    }
+    public StoreTelpon(String namatelpon, String warnatelpon){
+        this.namatelpon = namatelpon;
+        this.warnatelpon = warnatelpon;
+    }
+    public StoreTelpon(String typetelpon, String emaitelpon, String tahunkluar){
+        this.typetelpon = typetelpon;
+        this.emaitelpon = emaitelpon;
+        this.tahunkluar = tahunkluar;
+    }
 }
