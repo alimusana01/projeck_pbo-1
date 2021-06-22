@@ -31,5 +31,28 @@ public class AksiStoreTelpon {
         pembeli.create();
         pembeli.create()("Handphone IOS")
 
-    }
+
+        //construktor dengan method (obeject)
+            StoreTelpon Store1 = new StoreTelpon();
+            Store1.tampilkanAtribut();
+            StoreTelpon Store2 = new StoreTelpon();
+            Store2.tampilkaninfotelpon();
+
+            StoreTelpon Store3 = new StoreTelpon("oppo","biru");
+            Store3.tampilkaninfotelpon();
+            StoreTelpon Store4 = new StoreTelpon("REDMI","pink");
+            Store4.tampilkanAtribut();
+
+            StoreTelpon Store5 = new StoreTelpon("A7","xxx1277783","2020");
+            Store5.tampilkaninfotelpon();
+            StoreTelpon Store6 = new StoreTelpon("NOTE7","xxxqp66723","2020");
+
+
+
+
+
+        }
+
 }
+
+
