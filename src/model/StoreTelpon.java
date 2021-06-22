@@ -1,5 +1,5 @@
 package model;
-
+// superClas/parent-Clas
 public class StoreTelpon {
     //    8 atribut clas StoreTelpon
 
