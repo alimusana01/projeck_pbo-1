@@ -20,7 +20,7 @@ public class AksiStoreTelpon {
         //object class 2
         PembeliTelpon pembeli = new pembeli();
         pembeli.idtelpon = 00145;
-        pembeli.typetelpon = "S6+";
+        pembeli.typetelpon = "S7+";
         pembeli.namatelpon = "IPHONE";
         pembeli.emaitelpon = "xxqz888712";
         pembeli.warnatelpon = "Gold";
