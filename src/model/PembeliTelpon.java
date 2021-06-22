@@ -17,4 +17,30 @@ public class PembeliTelpon extends StoreTelpon{
         String ji = "INSERT INTO StoreTelpon VALUES ('"+jumlahbeli+"')";
         System.out.println(ji);
     }
+
+        //Getter And Setter
+
+    public String getNamapembeli() {
+        return namapembeli;
+    }
+
+    public void setNamapembeli(String namapembeli) {
+        this.namapembeli = namapembeli;
+    }
+
+    public int getNamapenjual() {
+        return namapenjual;
+    }
+
+    public void setNamapenjual(int namapenjual) {
+        this.namapenjual = namapenjual;
+    }
+
+    public String getJumlahbeli() {
+        return jumlahbeli;
+    }
+
+    public void setJumlahbeli(String jumlahbeli) {
+        this.jumlahbeli = jumlahbeli;
+    }
 }
