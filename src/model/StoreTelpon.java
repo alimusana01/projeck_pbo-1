@@ -4,15 +4,15 @@ public class StoreTelpon {
     //    8 atribut clas StoreTelpon
 
     public int idtelpon;
-    public string typetelpon;
-    public string namatelpon;
-    public string emaitelpon;
-    public string warnatelpon;
-    public string tahunkluar;
-    public string sepesifikasitelpon;
-    public string statustelpon;
+    public String typetelpon;
+    public String namatelpon;
+    public String emaitelpon;
+    public String warnatelpon;
+    public String tahunkluar;
+    public String sepesifikasitelpon;
+    public String statustelpon;
 
-   // 4 method class storetelpon
+   // 4 method class storetelpon//
 
 
     public void tampilkanAtribut(){
@@ -37,7 +37,7 @@ public class StoreTelpon {
         System.out.println("Status Telpon : "+statustelpon);
     }
     public boolean create (){
-        string insertCreate = "INSERT INTO StoreTelpon VALUES ('"+idtelpon"','"+namatelpon"','"+typetelpon"','"+warnatelpon"')";
+        String insertCreate = "INSERT INTO StoreTelpon VALUES ('"+idtelpon"','"+namatelpon"','"+typetelpon"','"+warnatelpon"')";
         System.out.println(insertCreate);
         boolean berhasil = true;
         if (berhasil){
@@ -48,7 +48,7 @@ public class StoreTelpon {
 
     }
     public boolean create(String typetelpon){
-        string insertCreate ="INSERT INTO StoreTelpon VALUES Type Telpon "+typetelpon;
+        String insertCreate ="INSERT INTO StoreTelpon VALUES Type Telpon "+typetelpon;
         System.out.println(insertCreate);
         return false;
     }
