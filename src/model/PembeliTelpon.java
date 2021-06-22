@@ -43,4 +43,17 @@ public class PembeliTelpon extends StoreTelpon{
     public void setJumlahbeli(String jumlahbeli) {
         this.jumlahbeli = jumlahbeli;
     }
+
+    //overridding
+
+    @Override
+    public boolean create() {
+        return super.create();
+    }
+
+    @Override
+    public void tampilkanAtribut() {
+        super.tampilkanAtribut();
+
+    }
 }
