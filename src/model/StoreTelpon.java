@@ -70,4 +70,70 @@ public class StoreTelpon {
         this.emaitelpon = emaitelpon;
         this.tahunkluar = tahunkluar;
     }
+
+    //Getter And Setter
+
+    public int getIdtelpon() {
+        return idtelpon;
+    }
+
+    public void setIdtelpon(int idtelpon) {
+        this.idtelpon = idtelpon;
+    }
+
+    public String getTypetelpon() {
+        return typetelpon;
+    }
+
+    public void setTypetelpon(String typetelpon) {
+        this.typetelpon = typetelpon;
+    }
+
+    public String getNamatelpon() {
+        return namatelpon;
+    }
+
+    public void setNamatelpon(String namatelpon) {
+        this.namatelpon = namatelpon;
+    }
+
+    public String getEmaitelpon() {
+        return emaitelpon;
+    }
+
+    public void setEmaitelpon(String emaitelpon) {
+        this.emaitelpon = emaitelpon;
+    }
+
+    public String getWarnatelpon() {
+        return warnatelpon;
+    }
+
+    public void setWarnatelpon(String warnatelpon) {
+        this.warnatelpon = warnatelpon;
+    }
+
+    public String getTahunkluar() {
+        return tahunkluar;
+    }
+
+    public void setTahunkluar(String tahunkluar) {
+        this.tahunkluar = tahunkluar;
+    }
+
+    public String getSepesifikasitelpon() {
+        return sepesifikasitelpon;
+    }
+
+    public void setSepesifikasitelpon(String sepesifikasitelpon) {
+        this.sepesifikasitelpon = sepesifikasitelpon;
+    }
+
+    public String getStatustelpon() {
+        return statustelpon;
+    }
+
+    public void setStatustelpon(String statustelpon) {
+        this.statustelpon = statustelpon;
+    }
 }
